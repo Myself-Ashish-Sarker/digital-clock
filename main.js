@@ -44,9 +44,9 @@ function updateTime() {
 
     if (hr > 12) {
         hr = hr - 12;
-        ampm.innerHTML = 'AM.';
-    } else {
         ampm.innerHTML = 'PM.';
+    } else {
+        ampm.innerHTML = 'AM.';
     }
 
     
