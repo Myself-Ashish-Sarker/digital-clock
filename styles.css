@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading_name {
+    position: absolute;
+    top: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.clock_mechanism {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.hour_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    /* padding: 4rem; */
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white
+}
+
+.minutes_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white
+}
+
+.seconds_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white
+}
+
+.millisecond_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white
+}
+
+.milliseconds_text {
+    position: absolute;
+}
+
+.middle_pointer {
+    font-size: 4rem;
+}
+
+.tag_name {
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.ampm_name {
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background-color: black;
+    color: white;
+}
+
+.remainder_text {
+    margin-top: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo_png {
+    position: absolute;
+    left: 2rem;
+    bottom: 3rem;
+    width: 10rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.copy_right {
+    position: absolute;
+    bottom: 2rem;
+    right: 40rem;
+}
+
+.copy_right span {
+    font-weight: bold;
+}
+
+@media  only screen and (max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        height: 100vh;
+    }
+}
